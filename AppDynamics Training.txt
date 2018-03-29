@@ -31,3 +31,6 @@ Select Application Server...
 
 ---------------------------------------------
 java -jar jarname
+---------------------------------------------
+Download spring pet-clinic application and try for the same work.
+

@@ -1,0 +1,30 @@
+PCF - Ops Manager - AppDynamics
+
+appdynamics version - lite and pro
+
+https://audrey2018032902250716.saas.appdynamics.com:443
+
+
+for commercial, it will be true
+<force-agent-registration>false</force-agent-registration>
+
+
+Install the App Agent
+Unzip the Java Agent. For example:
+unzip AppServerAgent-4.4.1.zip -d <java_agent_unzip_path>/appagent
+Edit the startup script for your application server. Add the -javaagent parameter to the startup command. 
+Set the value of -javaagent to the path to the Java Agent JAR file. For example:
+
+-javaagent:<java_agent_unzip_path>/appagent/javaagent.jar
+----------------------------------------------------------------------------------------
+-javaagent:D:\appdynamics\AppServerAgent-4.4.2.22394/javaagent.jar
+----------------------------------------------------------------------------------------
+-javaagent:D:\appdynamics\AppServerAgent-4.4.2.22394/ver4.4.2.22394/javaagent.jar
+----------------------------------------------------------------------------------------
+D:\appdynamics\AppServerAgent-4.4.2.22394
+----------------------------------------------------------------------------------------
+
+Restart your application
+For exact instructions, please select your Application Server:
+
+Select Application Server...

@@ -28,3 +28,6 @@ Restart your application
 For exact instructions, please select your Application Server:
 
 Select Application Server...
+
+---------------------------------------------
+java -jar jarname
